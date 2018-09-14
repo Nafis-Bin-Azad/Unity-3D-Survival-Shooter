@@ -551,7 +551,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: bdce5eb14a9f547668f67b5293a8429d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1069,6 +1069,29 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40f149bba48e24637a3b7e7a4b6ccbb8, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1323153469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1269337324033470, guid: 40f149bba48e24637a3b7e7a4b6ccbb8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1323153468}
+--- !u!114 &1323153470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1323153469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 544f2064df03e95419b4a5147c506b08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 100
+  currentHealth: 0
+  healthSlider: {fileID: 1778988019}
+  damageImage: {fileID: 526385906}
+  deathClip: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
+  flashSpeed: 5
+  flashColour: {r: 1, g: 0, b: 0, a: 0.44705883}
 --- !u!4 &1323153475 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4925742195866752, guid: 40f149bba48e24637a3b7e7a4b6ccbb8,
@@ -1305,6 +1328,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400074, guid: be66986effd141b4992d2d78be127139,
     type: 3}
   m_PrefabInternal: {fileID: 1442826826}
+--- !u!114 &1501872485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1501872476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15099f5ee559584089d5851df572def, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBetweenAttacks: 0.5
+  attackDamage: 10
 --- !u!1 &1778988017
 GameObject:
   m_ObjectHideFlags: 0
