@@ -1066,32 +1066,19 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 114545796945351556, guid: 40f149bba48e24637a3b7e7a4b6ccbb8,
+        type: 2}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 1778988019}
+    - target: {fileID: 114545796945351556, guid: 40f149bba48e24637a3b7e7a4b6ccbb8,
+        type: 2}
+      propertyPath: damageImage
+      value: 
+      objectReference: {fileID: 526385906}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40f149bba48e24637a3b7e7a4b6ccbb8, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1323153469 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1269337324033470, guid: 40f149bba48e24637a3b7e7a4b6ccbb8,
-    type: 2}
-  m_PrefabInternal: {fileID: 1323153468}
---- !u!114 &1323153470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1323153469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 544f2064df03e95419b4a5147c506b08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingHealth: 100
-  currentHealth: 0
-  healthSlider: {fileID: 1778988019}
-  damageImage: {fileID: 526385906}
-  deathClip: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
-  flashSpeed: 5
-  flashColour: {r: 1, g: 0, b: 0, a: 0.44705883}
 --- !u!4 &1323153475 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4925742195866752, guid: 40f149bba48e24637a3b7e7a4b6ccbb8,
